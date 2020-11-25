@@ -33,7 +33,7 @@ public class PostManApiTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("прювет"))
+                .body("data", equalTo("прииивет"))
         ;
     }
 
